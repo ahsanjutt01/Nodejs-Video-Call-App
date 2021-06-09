@@ -13,7 +13,7 @@ app.get( '/', ( req, res ) => {
     res.sendFile( __dirname + '/index.html' );
 } );
 
-
 io.of( '/stream' ).on( 'connection', stream );
 
 server.listen( 3000 );
+console.log('server listening on http://localhost:3000/')

@@ -1,6 +1,7 @@
 # Conference Call
 A conference call implementation using WebRTC, Socket.io and Node.js.
-
+- npm i
+- npm run watch
 
 # Getting Started
 - Run `npm ci`
